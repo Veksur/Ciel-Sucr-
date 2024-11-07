@@ -1,0 +1,172 @@
+/* Réinitialisation */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+}
+
+/* En-tête */
+header {
+    background-color: #1a1a1a; /* Noir élégant */
+    color: #f5b300; /* Doré */
+    text-align: center;
+    padding: 60px 0;
+}
+
+header h1 {
+    font-size: 3.5em;
+    font-family: 'Times New Roman', serif;
+}
+
+header p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+/* Bannière */
+#banniere {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Fond sombre avec transparence */
+    color: #f5b300;
+    padding: 60px 0;
+}
+
+#banniere img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    border-radius: 10px;
+}
+
+#banniere h2 {
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+/* Section des produits */
+#produits {
+    padding: 50px 0;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+#produits h2 {
+    font-size: 3.5em;
+    color: #1a1a1a;
+    margin-bottom: 40px;
+}
+
+.categorie {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.categorie h3 {
+    font-size: 2.5em;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+}
+
+/* Produits */
+.produit {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    width: 280px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.produit img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.produit h4 {
+    font-size: 1.8em;
+    color: #d6a500; /* Doré */
+    margin-bottom: 10px;
+}
+
+.produit p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.produit button {
+    background-color: #f5b300;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.produit button:hover {
+    background-color: #d6a500;
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    padding: 50px;
+    text-align: center;
+}
+
+footer h2 {
+    color: #f5b300;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+footer form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+footer form label {
+    font-size: 1.2em;
+    color: #f5b300;
+}
+
+footer form input,
+footer form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer form button {
+    background-color: #f5b300;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+footer form button:hover {
+    background-color: #d6a500;
+}
+
+/* Fond d'écran */
+body {
+    background-image: url('images/fon4.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+}
